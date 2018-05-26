@@ -1,8 +1,12 @@
 let musicians;
 let instruments;
+<<<<<<< HEAD
 let musiciansAndInstruments = [];
 let tempMusiciansAndInstruments = [];
 let iLove = [];
+=======
+
+>>>>>>> 78b0d247b5a33e188f5fe0f331604b607503a950
 
 const facts = [
   "He was the last Beatle to learn to drive",
@@ -12,6 +16,7 @@ const facts = [
 ];
 
 function theBeatlesPlay (musicians, instruments){
+<<<<<<< HEAD
   for (let i = 0; i < musicians.length; i++){
     tempMusiciansAndInstruments = musicians[i] + " plays " + instruments[i];
     musiciansAndInstruments.push(tempMusiciansAndInstruments);
@@ -39,3 +44,20 @@ if ( num===7 ){
   return iLove;
 } 
 }
+=======
+  let newArray;
+  for (i=0, i < musicians.length, i++) {
+    
+  }
+ // let newArray.push(musicians + " plays " +instruments);
+//  return newArray;
+}
+
+function johnLennonFacts (facts){
+  facts + "!!!"
+}
+
+function iLoveTheBeatles (num) {
+  
+}
+>>>>>>> 78b0d247b5a33e188f5fe0f331604b607503a950
